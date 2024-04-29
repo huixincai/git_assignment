@@ -38,6 +38,11 @@
 
     > g. What is the `main` branch?
 
+    GitHub names the default branch "main" in any new repository. When you create a repository with content on GitHub.com, GitHub creates the repository with a single branch. The main branch is the branch that GitHub displays when anyone visits your repository, also the initial branch that Git checks out locally when someone clones the repository. Unless you specify a different branch, the main branch in a repository is the base branch for new pull requests and code commits.
+
+
     > h. Besides our initial commit if it is a new repository, should we directly push our changes directly into the `main` branch?
+
+    No, we should not directly push our changes into the "main" branch. We should create a "feature" or personal branch off from the main branch and working on the files independently and safely on own personal branch. It is very important to let Git intelligently merge our specific changes to feature branch first, so that our changes don't impact other people's updates. Also, let Git keep track of our and other people's changes, so all stay working on the most up-to-date version of the project.
 
     
